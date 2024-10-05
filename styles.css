@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+body {
+    font-family: "Protest Strike", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e8f5;
+    color: #333;
+}
+
+header {
+    background: #a275a8;
+    color: white;
+    padding: 1rem;
+    text-shadow: 2px 2px #812e7d;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #855192;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.galeria-imagem {
+    max-width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#data-hora {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para tema escuro */
+body.dark {
+    background-color: #333;
+    color: #f4f4f4;
+}
+#contato.dark {
+    background: #333 !important;
+    color: #f4f4f4;
+}
+header.dark {
+    background: #222;
+}
+
+nav a.dark {
+    color: #f4f4f4;
+}
+
+button.dark {
+    background-color: #444;
+}
+#contato {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #814486;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#mensagem-status {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
